@@ -1,0 +1,3 @@
+run_name=test_sam
+num_epochs=15
+frozen_enc=True
