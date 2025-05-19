@@ -3,6 +3,24 @@
 Repo containing code where SAM was fine-tuned on IWOAI 2019 knee MRI data.
 A 3D U-Net was also trained as a baseline.
 
+This work was presented at **BMVC 2024**.
+
+You can read the paper via:
+
+- [BMVC 2024 proceedings](https://bmvc2024.org/proceedings/957/)
+- [arXiv](http://www.arxiv.org/abs/2504.13340)
+
+If you wish to cite this work, please reference the arXiv version:
+
+```bibtex
+@article{mills2025meniscus,
+  title={Putting the Segment Anything Model to the Test with 3D Knee MRI - A Comparison with State-of-the-Art Performance},
+  author={Mills, Oliver and Conaghan, Philip and Ravikumar, Nishant and Relton, Samuel},
+  journal={arXiv preprint arXiv:2504.13340},
+  year={2025}
+}
+```
+
 Models, dataset classes, metrics and utility functions are all defined in `src`.
 
 Train scripts for models are found in `scripts` folder.
@@ -11,6 +29,8 @@ Train scripts for models are found in `scripts` folder.
 Other notebooks are for extracting results from the generated masks (`Bland_Altman_Plots.ipynb`, `Dice_scores.ipynb`, `Hausdorff_Distance.ipynb`)
 
 `data` folder is empty. Put data here after cloning.
+
+
 
 Directory Tree:
 ```bash
