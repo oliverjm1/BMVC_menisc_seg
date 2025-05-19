@@ -17,7 +17,8 @@ If you wish to cite this work, please reference the arXiv version:
   title={Putting the Segment Anything Model to the Test with 3D Knee MRI - A Comparison with State-of-the-Art Performance},
   author={Mills, Oliver and Conaghan, Philip and Ravikumar, Nishant and Relton, Samuel},
   journal={arXiv preprint arXiv:2504.13340},
-  year={2025}
+  year={2025},
+  doi={10.48550/arXiv.2504.13340}
 }
 ```
 
