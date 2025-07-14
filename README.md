@@ -31,6 +31,8 @@ Other notebooks are for extracting results from the generated masks (`Bland_Altm
 
 `data` folder is empty. Put data here after cloning.
 
+Model checkpoints used for final results can be downloaded [here](https://drive.google.com/drive/folders/143-YOXvaGO6W-3zLVfv5uPWxdBqvXXc5?usp=drive_link)
+
 
 
 Directory Tree:
