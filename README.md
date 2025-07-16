@@ -22,18 +22,26 @@ If you wish to cite this work, please reference the arXiv version:
 }
 ```
 
-Models, dataset classes, metrics and utility functions are all defined in `src`.
+## Project Structure
 
-Train scripts for models are found in `scripts` folder.
+- `src/`: Models, dataset classes, metrics, and utility functions.
+- `scripts/`: Train scripts for the models.
+- `notebooks/`: Jupyter notebooks for:
+  - Testing training code
+  - Performing inference on test data (`test_unet.ipynb`, `run_test_split_through_sam.ipynb`)
+  - Extracting and visualizing results:
+    - `Bland_Altman_Plots.ipynb`
+    - `Dice_scores.ipynb`
+    - `Hausdorff_Distance.ipynb`
+- `data/`: Add your data here after cloning.
+- `models/`: Put model checkpoints here.
 
-`notebooks` contains all jupypter notebooks, most of which just test the code contained in the train scripts.
-Other notebooks are for extracting results from the generated masks (`Bland_Altman_Plots.ipynb`, `Dice_scores.ipynb`, `Hausdorff_Distance.ipynb`)
+## Model Checkpoints
 
-`data` folder is empty. Put data here after cloning.
+The model checkpoints used for final results in the paper can be downloaded [here](https://drive.google.com/drive/folders/143-YOXvaGO6W-3zLVfv5uPWxdBqvXXc5?usp=drive_link)
 
-Model checkpoints used for final results can be downloaded [here](https://drive.google.com/drive/folders/143-YOXvaGO6W-3zLVfv5uPWxdBqvXXc5?usp=drive_link)
-
-
+## Contact
+For any queries, please email [scojm@leeds.ac.uk](mailto:scojm@leeds.ac.uk)
 
 Directory Tree:
 ```bash
